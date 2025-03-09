@@ -42,14 +42,20 @@ iceprog traffic_light.bin
 
 📡 UART Communication Protocol
 Traffic Light State	UART TX Message (FPGA → PC)	UART RX Command (PC → FPGA)
+
 Green Light	"Green\n"	"G" – Override to Green
+
 Yellow Light	"Yellow\n"	"Y" – Override to Yellow
+
 Red Light	"Red\n"	"R" – Override to Red
-Pedestrian Stop	"Pedestrian\n"	"X" – Release Override
+
+"X" – Release Override
+
 ✅ Manual Override:
 
 The PC can send "G", "Y", or "R" to force a traffic light state change.
 The system will remain in override mode until it receives an "X" command.
+
 ✅ Automatic Mode:
 
 If no override is active, the traffic light cycles normally through Green → Yellow → Red.

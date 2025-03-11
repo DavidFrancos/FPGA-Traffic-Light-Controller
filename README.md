@@ -1,3 +1,5 @@
+https://youtu.be/FS4QrtTvfPY
+
 🚦 FPGA Traffic Light Controller with Dual UART Communication
 📌 Project Overview
 This FPGA-based project implements a traffic light controller with dual UART communication, allowing a PC to override traffic signals while maintaining standard automatic control. The system:
